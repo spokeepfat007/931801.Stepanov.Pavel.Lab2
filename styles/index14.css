@@ -1,0 +1,46 @@
+
+.container {
+    background-color: aqua;
+    border: green 2px solid;
+}
+
+.item {
+
+    background-color: bisque;
+
+}
+
+.item2 {
+    background-color: darkgray;
+}
+.inner-item{
+    margin:0;
+}
+@media screen and (min-width:600px){
+    .item{
+        float: left;
+        width: 400px;
+        height: 5em;
+    }
+    .item2 {
+        margin-left: 400px;
+    }
+}
+@media screen and (max-width:599px) {
+    li{
+        list-style-type: none; /* Убираем маркеры */
+    }
+    li:first-child{
+        float:left;
+    }
+    li:nth-child(2)
+    {
+        float:left;
+        margin: 0 5px;
+    }
+    .item{margin: 20px 0;
+        height: auto;}
+}
+
+
+

@@ -1,0 +1,55 @@
+
+footer {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: green;
+    bottom: 0;
+}
+p{
+    margin:0;
+}
+.container {
+    background-color: aqua;
+    border: green 2px solid;
+
+
+}
+
+.item {
+    float: left;
+    background-color: bisque;
+    height: 5em;
+    width: 300px;
+}
+.item2 {
+    background-color: darkgray;
+    overflow: auto;
+
+}
+.item3{
+    float: right;
+    max-width: 50%;
+    max-height: 50%;
+}
+@media screen and (min-width:700px){
+    .item2{
+        margin-left: 300px;
+
+    }
+
+    .item4{
+        clear: right;
+    }
+}
+@media screen and (max-width:699px) {
+    .item2 {
+        background-color: darkgray;
+        margin-left: 120px;
+    }
+    .item{
+        width: 120px;
+    }
+
+
+}

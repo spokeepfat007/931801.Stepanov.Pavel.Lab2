@@ -1,0 +1,31 @@
+
+footer {
+    position: fixed;
+    height: 70px;
+    width: 100%;
+    background-color: green;
+    bottom: 0;
+}
+
+.container {
+    background-color: aqua;
+
+}
+
+.item {
+   float: left;
+    background-color: bisque;
+    height: 5em;
+    width: 200px;
+}
+
+.item2 {
+    background-color: darkgray;
+    margin-left: 200px;
+
+}
+.bruh{
+    margin:0;
+}
+
+

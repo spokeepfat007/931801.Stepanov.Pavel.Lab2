@@ -1,0 +1,60 @@
+#fixed{
+    position: fixed;
+    background-color: green;
+    color: white;
+    bottom: 0; /* Положение от нижнего края */
+    right: 0;
+    height: 80px;
+    float:right;
+
+}
+#static
+{
+    padding-right: 30px;
+   height:100px;
+    width:120px;
+    background-color: blueviolet;
+    color: white;
+}
+.rel1{
+    background-color: darkred;
+    color:white;
+    height:100px;
+    width:120px;
+    padding-right: 30px;
+}
+.rel2{
+    background-color: peru;
+    color:white;
+    height:100px;
+    width:120px;
+    position: relative;
+    padding-right: 30px;
+    top: -20px;
+    left:20px;
+}
+.rel3{
+    background-color: indianred;
+    color:white;
+    width:534px;
+    height: 300px;
+bottom:0;
+    padding-right: 30px;
+    position: relative;
+}
+.abs{
+    position: absolute;
+    width: 267px;
+    height:150px;
+    background-color:indigo ;
+    bottom: 70px;
+    top: 80px;
+    right:0px;
+    color: white;
+
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+
