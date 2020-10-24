@@ -24,7 +24,6 @@ body {
     margin: 0;
 }
 
-
 .left {
     width: 25%;
     background-color: #c8fc98;
@@ -39,7 +38,6 @@ body {
     padding-left: 5px;
     padding-right: 5px;
     padding-bottom: 5px;
-
 }
 
 .right {
@@ -69,8 +67,3 @@ a {
 .clear {
     clear: both;
 }
-
-/*
-
-#FFFF80
-#FDE95E*/

@@ -3,13 +3,14 @@ header {
     height: 65px;
     background-color: #EAEAEA;
     vertical-align: top;
-
     padding: 5px;
-    font-size:30px;
+    font-size: 30px;
 }
-body{
+
+body {
     margin: 0;
 }
+
 h4 {
     margin: 0;
 }
@@ -30,15 +31,20 @@ span {
     box-sizing: border-box;
     width: 200px;
     background-color: #C8FC98;
-    padding: 3px  5px 10px 5px ;
+    padding: 3px 5px 10px 5px;
     float: left;
 }
-.main{
+
+.main {
     margin-left: 210px;
     margin-top: 3px;
 }
 
-.container::before{ content: "Center Column: "; font-weight: bold; }
+.container::before {
+    content: "Center Column: ";
+    font-weight: bold;
+}
+
 footer {
     background-color: #000000;
     padding: 8px;

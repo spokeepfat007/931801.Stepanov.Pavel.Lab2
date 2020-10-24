@@ -13,7 +13,7 @@ footer {
 }
 
 .item {
-   float: left;
+    float: left;
     background-color: bisque;
     height: 5em;
     width: 200px;
@@ -22,10 +22,10 @@ footer {
 .item2 {
     background-color: darkgray;
     margin-left: 200px;
-
 }
-.bruh{
-    margin:0;
+
+.bruh {
+    margin: 0;
 }
 
 

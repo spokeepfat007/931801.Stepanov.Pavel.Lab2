@@ -1,14 +1,16 @@
-.block1{
+.block1 {
     margin: 20px;
-    height:100px;
+    height: 100px;
     width: 180px;
-    float:left;
+    float: left;
     background-color: aquamarine;
 }
-.clear{
-     clear: both;
+
+.clear {
+    clear: both;
 }
-.block2{
-background-color: bisque;
+
+.block2 {
+    background-color: bisque;
     padding-left: 10px;
 }

@@ -1,59 +1,63 @@
-#fixed{
+#fixed {
     position: fixed;
     background-color: green;
     color: white;
     bottom: 0; /* Положение от нижнего края */
     right: 0;
     height: 80px;
-    float:right;
+    float: right;
 
 }
-#static
-{
+
+#static {
     padding-right: 30px;
-   height:100px;
-    width:120px;
+    height: 100px;
+    width: 120px;
     background-color: blueviolet;
     color: white;
 }
-.rel1{
+
+.rel1 {
     background-color: darkred;
-    color:white;
-    height:100px;
-    width:120px;
+    color: white;
+    height: 100px;
+    width: 120px;
     padding-right: 30px;
 }
-.rel2{
+
+.rel2 {
     background-color: peru;
-    color:white;
-    height:100px;
-    width:120px;
+    color: white;
+    height: 100px;
+    width: 120px;
     position: relative;
     padding-right: 30px;
     top: -20px;
-    left:20px;
+    left: 20px;
 }
-.rel3{
+
+.rel3 {
     background-color: indianred;
-    color:white;
-    width:534px;
+    color: white;
+    width: 534px;
     height: 300px;
-bottom:0;
+    bottom: 0;
     padding-right: 30px;
     position: relative;
 }
-.abs{
+
+.abs {
     position: absolute;
     width: 267px;
-    height:150px;
-    background-color:indigo ;
+    height: 150px;
+    background-color: indigo;
     bottom: 70px;
     top: 80px;
-    right:0px;
+    right: 0;
     color: white;
-
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
 }
